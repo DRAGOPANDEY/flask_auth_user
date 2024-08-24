@@ -22,6 +22,26 @@ This project provides a robust user authentication system using Flask. It includ
 
 **API Endpoints Authentication**
 ```
+User Registration Endpoint
+Endpoint: POST /api/register
+
+Method: POST
+URL: http://127.0.0.1:5000/api/register
+Headers:
+Content-Type: application/json
+Body: Select raw and JSON format, then enter the JSON payload:
+json
+Copy code
+{
+  "username": "testuser",
+  "email": "testuser@example.com",
+  "password": "Test@1234",
+  "address": "123 Test St",
+  "phone_number": "+1234567890",
+  "profile_picture": "http://example.com/profile.jpg"
+}
+```
+```
 POST /api/login
 Request Body:
 json
