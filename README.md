@@ -31,7 +31,6 @@ Headers:
 Content-Type: application/json
 Body: Select raw and JSON format, then enter the JSON payload:
 json
-Copy code
 {
   "username": "testuser",
   "email": "testuser@example.com",
